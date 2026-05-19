@@ -57,4 +57,4 @@ Example:
 http://localhost:8080/customers/1/account-summary
 
 This endpoint combines:
-user balance from the database, usage data from the external API (which in this case, is just my own endpoint within the same app, mimicing external service) and returns a single aggregated response.
+user balance from the database, usage data from the external API (which in this case, is just my own endpoint within the same app, mimicing external service) and returns a single aggregated response. The endpoint can be consumed through a Postman Client.
