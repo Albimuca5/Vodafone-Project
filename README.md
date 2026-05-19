@@ -21,7 +21,7 @@ How the data is stored and loaded
 
 This project uses an H2 in-memory database, so there is no need to install or configure any external database.
 
-The user balance data is automatically inserted when the application starts using the balanceData.sql file under resources directory. 
+The user balance data is automatically inserted when the application starts using the data.sql file under resources directory. 
 For example, some users and balances are preloaded like this:
 
 INSERT INTO user_balance (id, balance) VALUES (1, 777.1);
